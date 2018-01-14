@@ -5,11 +5,16 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 
+<<<<<<< HEAD
 function destructivelyPrependKitten(name){
+=======
+function destructivelyAppendKitten(name){
+>>>>>>> 1d10b3ade826cece978ef97ba52c85187fbc88ef
   kittens.unshift(name);
   return kittens;
 }
 
+<<<<<<< HEAD
 function destructivelyRemoveLastKitten(){
   kittens.pop();
   return kittens;
@@ -35,3 +40,5 @@ function removeLastKitten(){
 function removeFirstKitten(){
   return kittens.slice(1);
 }
+=======
+>>>>>>> 1d10b3ade826cece978ef97ba52c85187fbc88ef
